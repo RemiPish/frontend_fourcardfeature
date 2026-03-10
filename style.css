@@ -31,17 +31,17 @@ body {
 .features__intro h1 {
   margin: unset;
   font-size: 2rem;
-}
-.features__intro h1:first-child {
   font-weight: 200;
   color: #6A7178;
 }
-.features__intro h1:nth-child(2) {
+.features__intro h2 {
+  margin: unset;
+  font-size: 2rem;
   font-weight: 700;
   color: #4D4F62;
 }
 .features__intro p {
-  margin-top: 1rem;
+  margin-block-start: 1rem;
   color: #4D4F62;
 }
 .features__cards {
@@ -56,8 +56,6 @@ body {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 8px 18px rgba(25, 15, 51, 0.15);
-  max-width: 85vw;
-  width: 100%;
 }
 .features__cards article img {
   align-self: flex-end;
@@ -120,8 +118,8 @@ footer a:focus-visible {
   .features__cards-team-builder {
     grid-column: 1/-1;
     justify-self: center;
-    width: 100% !important;
-    max-width: 25.5rem !important;
+    width: 100%;
+    max-width: 25.5rem;
   }
   .features__cards-supervisor {
     grid-column: 1;
@@ -146,7 +144,8 @@ footer a:focus-visible {
     gap: 2rem;
   }
   .features__cards article {
-    width: 25vw;
+    max-width: 85vw;
+    width: 100%;
   }
   footer {
     display: block;

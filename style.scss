@@ -45,20 +45,19 @@ body {
         & h1 {
             margin: unset;
             font-size: 2rem;
-        }
-
-        & h1:first-child {
             font-weight: 200;
             color: $grey-400;
         }
 
-        & h1:nth-child(2) {
+        & h2 {
+            margin: unset;
+            font-size: 2rem;
             font-weight: 700;
             color: $grey-500;
         }
 
         & p {
-            margin-top: 1rem;
+            margin-block-start: 1rem;
             color: $grey-500;
         }
     }
@@ -75,9 +74,6 @@ body {
             padding: 2rem;
             border-radius: $border-radius-card;
             box-shadow: 0 8px 18px rgba(25, 15, 51, 0.15);
-            max-width: 85vw;
-            width: 100%;
-
 
             & img {
                 align-self: flex-end;
@@ -151,8 +147,8 @@ footer a:focus-visible {
     .features__cards-team-builder {
         grid-column: 1 / -1;
         justify-self: center;
-        width: 100% !important;
-        max-width: 25.5rem !important;
+        width: 100%;
+        max-width: 25.5rem;
     }
 
     .features__cards-supervisor {
@@ -181,7 +177,8 @@ footer a:focus-visible {
         gap: 2rem;
 
         & article {
-            width: 25vw;
+            max-width: 85vw;
+            width: 100%;
         }
     }
 

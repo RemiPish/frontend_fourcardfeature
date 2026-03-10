@@ -20,7 +20,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
- Live Site URL: [Vercel](https://frontend-productpreview.vercel.app/)
+ Live Site URL: [Vercel](hhttps://frontend-fourcardfeature.vercel.app/)
 
 ## My process
 
